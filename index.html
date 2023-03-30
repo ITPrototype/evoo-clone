@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/boxicons.min.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>EVOO</title>
+  </head>
+  <body>
+    <div class="wrapper" data-bs-spy="scroll">
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" id="home">
+        <div class="container">
+          <a class="navbar-brand logo" href="#">Evoo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#drivers">Drivers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://eridirect.com/consumer/recycle-search/" target="_blank">Recycle</a>
+              </li>
+            </ul>
+            <a href="http://www.evooproducts.com/" class="btn btn-brand ms-lg-3 contact-btn" target="
+            ">Contact</a>
+          </div>
+        </div>
+      </nav>
+      <!-- END NAVBAR -->
+      <!-- CONTENT -->
+      <section class="container">
+        <div class="drivers-content">
+          <div class="content-img">
+            <h2>Please Select Your Device</h2>
+          </div>
+          <div class="content-downloads" id="drivers">
+            <div class="choose row d-flex flex-row align-items-center justify-content-center my-5">
+                <div class="choose-img m-2" id="1" onclick="sort(this)" value="lp4">
+                  LP 4 Drivers
+                </div>
+                <div class="choose-img m-2" id="2" onclick="sort(this)" value="lp5">
+                  LP 5 Drivers
+                </div>
+                <div class="choose-img m-2" id="3" onclick="sort(this)" value="lp6">
+                  LP 6 Drivers
+                </div>
+            </div>
+            <h2 id="title"></h2>
+            <table class="table">
+              <tbody id="table-body">
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="about d-flex flex-column align-items-center justify-content-center" id="about">
+            <h1 class="text-center">What we do:</h1>
+            <p class="text-center w-sm-100">
+              EVOO strives to develop user friendly technology to help people of all ages everywhere achieve their goals. During development, reliability and affordability are a focus for every product whether its primary use is for work, school, home, or any other craft. Products range beyond the traditional laptop to the Clamshell, Convertible, detachable and tablets. Learn more about our products and find out which best suits you for your lifestyle as well as the endless options of colors and looks.
+            </p>
+            <img src="./img/nt.webp" class="w-25"/>
+        </div>
+      </section>
+      <!-- END CONTENT -->
+      <!-- FOOTER -->
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="#" class=" me-2 mb-md-0 text-muted text-decoration-none lh-1">
+              <i class='bx bx-expand-horizontal'></i>
+            </a>
+            <span class=" mb-md-0 text-muted">© 2023 Evoo Company, Inc</span>
+          </div>
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+              <a href="#" class="text-muted">
+                <i class='bx bxl-twitter'></i>
+              </a>
+            </li>
+            <li class="ms-3">
+              <a href="#" class="text-muted">
+                <i class='bx bxl-facebook'></i>
+              </a>
+            </li>
+            <li class="ms-3">
+              <a href="#" class="text-muted">
+                <i class='bx bxl-telegram'></i>
+              </a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+      <!-- END FOOTER -->
+    </div>
+
+    <script src="./js/bundle.min.js" charset="utf-8"></script>
+    <script src="./js/jquery.js" charset="utf-8"></script>
+    <script src="./js/owl.carousel.min.css"></script>
+    <script src="./js/app.js" charset="utf-8"></script>
+  </body>
+</html>
